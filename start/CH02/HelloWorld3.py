@@ -16,3 +16,14 @@ print ("Hello " + user_name)
 print ("Hello", user_name)
 message = "Hello " + user_name
 print (message)
+
+
+print (message + ", I am proud of you!")
+
+age = input("How old are you? ")
+age= int(age)
+
+aged = age + 2
+print (f"In two years you will be {aged} years old!")
+
+
