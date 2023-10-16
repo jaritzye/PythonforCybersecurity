@@ -5,11 +5,12 @@
 
 
 #Ask if user is having a good day
-user_input= input("Is_today_a_good_day? (y/n) ):
+user_input = input("Is today a good day? (y/n): ")
 
-    # First condition test, answer is 'y'
-    if answer == 'y':
-        print("Yes it is")
+# Check the user's input
+if user_input.lower() == 'y':
+    print("Yes, it is a good day!")
+
     
     
 
