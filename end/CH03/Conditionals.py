@@ -8,10 +8,10 @@
 user_input = input("Is today a good day? (y/n): ")
 
 # Check the user's input
-if user_input.lower() == 'y':
-    print("Yes, it is a good day!")
 
-else:
-    print("I hope tomorrow goes better:(")
-    
+#if user answers yes
+if user_input.lower() == 'y':
+    for _ in range (10):
+        print("Yeah it is is")
+
 
