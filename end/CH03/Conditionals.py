@@ -1,8 +1,7 @@
 
 \#!/usr/bin/env python3
-# example workign with conditionals
-#By Ed Goad
-# date: 2/3/2021
+# By Jaritzy Esquivel
+# date: 10/15/23
 
 # Suggestion - 
 #   add in <, ==, > one at a time
@@ -10,17 +9,19 @@
 #   Change x and y values to test the various paths
 #   eventually simplfy with if, elif, else
 
-def condTest():
-    x, y = 100, 10
+#Import necessary Python Modules
 
-    # First condition test, x is less than y
-    if x < y:
-        print("X is less than y")
+import platform
+import os
+
+
+#Ask if user is having a good day
+def ask_question():
+    answer: input("Is today a good day? (y/n)  ")
+
+    # First condition test, answer is 'y'
+    if answer == 'y':
+        print("Yes it is")
     # Another conditional test, x is equal to y
-    elif x == y:
-        print("X is equal to y")
-    # Last conditional test, x is greater than y
-    else:
-        print("X is greater than y")
+    
 
-condTest()
