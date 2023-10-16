@@ -11,6 +11,7 @@ user_input = input("Is today a good day? (y/n): ")
 if user_input.lower() == 'y':
     print("Yes, it is a good day!")
 
-    
+else:
+    print("I hope tomorrow goes better:(")
     
 
