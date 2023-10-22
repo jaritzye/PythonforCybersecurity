@@ -3,15 +3,15 @@
 # By Jaritzy Esquivel
 # date: 10/15/23
 
+#Function HW: New function
+def send_message(message, times):
+    for _ in range (times):
+        print (message)
 
 #Ask if user is having a good day
-user_input = input("Is today a good day? (y/n): ")
+user_input= input("Is today a good day? (y/n)  ")
 
-# Check the user's input
 
-#if user answers yes
-if user_input.lower() == 'y':
-    for _ in range (10):
-        print("Yeah it is is")
-
+if user_input.lower() == "y":
+    send_message("Yeah it is",10)
 
