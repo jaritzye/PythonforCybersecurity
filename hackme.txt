@@ -1,0 +1,5 @@
+Name: Nico
+Color: Green
+Pet: Loki
+Mom: Kardashian
+school: Apple

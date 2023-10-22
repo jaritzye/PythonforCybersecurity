@@ -1,0 +1,17 @@
+#Strech Yourself Hw
+#By Jaritzy Esquivel
+#10-15-23
+
+#Prompt the user for a number
+user_input = input("Enter any number: ")
+
+#Convert user input to an integer
+num = int(user_input)
+
+#program checkes if input int is divisible by 2 (even)
+if num % 2 == 0:
+        print(f"{num} is even")
+
+#if input int is not even then display the following
+else:
+        print(f"{num} is NOT even")
