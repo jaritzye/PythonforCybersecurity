@@ -2,12 +2,15 @@
 # Script that scans web server logs for 404 errors
 # By Jaritzy Esquivel
 
+import os
+#Get script dir
+script_dir = os.path.dirname(__file__)
 
 #Prompt for file to analyze
 log_file = input("Which file to analyze?")
 
 #Open file
-f = open(log_file, "r")
+f = open(script_dir + "/" + log_file, "r")
 
 #Read file line by line 
 while True:
