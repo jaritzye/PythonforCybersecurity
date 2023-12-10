@@ -17,8 +17,8 @@ while True:
     line = f.readline()
     if not line:
         break
-    #Check for 404
-    if "404" in line:
+    #Check for *
+    if "*" in line:
         print(line.strip())
 
 # Close file
